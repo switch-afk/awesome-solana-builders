@@ -7,6 +7,7 @@ Every entry is one real sentence about what the thing does. No rankings, no affi
 ## Contents
 
 - [RPC providers and infrastructure](#rpc-providers-and-infrastructure)
+- [SDKs and frameworks](#sdks-and-frameworks)
 
 Categories are added one pull request at a time.
 
@@ -23,6 +24,20 @@ Services that give your code a connection to the Solana network.
 - [Solana public RPC endpoints](https://solana.com/docs/references/clusters) - Free public endpoints for each cluster that are rate-limited, so they suit testing and not production.
 - [Syndica](https://syndica.io) - Solana-focused provider offering RPC and streaming with an enterprise orientation.
 - [Triton One](https://triton.one) - Solana infrastructure company that maintains the Yellowstone gRPC streaming interface and sells dedicated nodes.
+
+## SDKs and frameworks
+
+Libraries and frameworks for writing programs and the clients that talk to them.
+
+- [Anchor](https://www.anchor-lang.com) - Rust framework for writing, testing and deploying Solana programs, with IDL generation and a TypeScript client.
+- [Codama](https://github.com/codama-idl/codama) - Generates typed JavaScript and Rust clients from a Solana program's IDL.
+- [Framework Kit](https://github.com/solana-foundation/framework-kit) - Solana Foundation packages built on Solana Kit that provide a client and React hooks for wallets, balances and transactions.
+- [Pinocchio](https://github.com/anza-xyz/pinocchio) - Rust library with no external dependencies for writing Solana programs with zero-copy account access.
+- [Solana Kit](https://solanakit.com) - JavaScript and TypeScript SDK for Solana RPC, signing and transactions that replaces the class-based web3.js v1.
+- [Solana Program clients](https://github.com/solana-program) - GitHub organization with typed JavaScript and Rust clients for core programs such as System, Token and Token-2022.
+- [solana-go](https://github.com/gagliardetto/solana-go) - Go SDK for Solana RPC and WebSocket clients and transaction building.
+- [solana-py](https://github.com/michaelhly/solana-py) - Python SDK for Solana RPC clients and transaction building.
+- [Wallet Adapter](https://github.com/anza-xyz/wallet-adapter) - TypeScript packages for connecting wallets to Solana web apps, with React components.
 
 ## How entries are chosen
 
