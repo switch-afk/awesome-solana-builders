@@ -10,6 +10,7 @@ Every entry is one real sentence about what the thing does. No rankings, no affi
 - [SDKs and frameworks](#sdks-and-frameworks)
 - [Bots and trading libraries](#bots-and-trading-libraries)
 - [Data APIs and indexers](#data-apis-and-indexers)
+- [Token and transaction tools](#token-and-transaction-tools)
 
 Categories are added one pull request at a time.
 
@@ -63,6 +64,18 @@ Services and frameworks for reading, streaming and querying on-chain data beyond
 - [Dune](https://dune.com) - Platform for querying indexed Solana data with SQL and publishing the results as dashboards.
 - [Yellowstone gRPC](https://github.com/rpcpool/yellowstone-grpc) - Geyser plugin that streams real-time account and transaction updates from validators over gRPC.
 - [Yellowstone Vixen](https://github.com/rpcpool/yellowstone-vixen) - Rust framework that turns raw Yellowstone events into typed data through parsers and handlers.
+
+## Token and transaction tools
+
+Tools for creating, inspecting and managing tokens and for reading transactions.
+
+- [Metaplex](https://developers.metaplex.com) - Standards and tooling for token metadata and NFTs on Solana, including compressed NFTs.
+- [mint-check](https://github.com/switch-afk/mint-check) - Command-line tool that checks a Solana token mint for red flags (by the maintainer).
+- [RugCheck](https://rugcheck.xyz) - Token scanner with an API that reports risks such as mint authority, freeze authority and holder concentration.
+- [sol-tx-explain](https://github.com/switch-afk/sol-tx-explain) - Command-line tool that turns a Solana transaction signature into a plain-English summary (by the maintainer).
+- [Streamflow](https://streamflow.finance) - Token vesting, locks and streaming payments, with an SDK for embedding them in your own app.
+- [Token program](https://github.com/solana-program/token) - Reference implementation of Solana's original Token program that defines mints and token accounts.
+- [Token-2022](https://github.com/solana-program/token-2022) - Token program that adds extensions such as transfer fees and confidential transfers while keeping the original Token program's instructions.
 
 ## How entries are chosen
 
