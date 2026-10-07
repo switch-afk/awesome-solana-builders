@@ -29,7 +29,7 @@ The maintainer builds Solana tools too. Those are listed on the same terms as ev
 
 ## Contributing
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md), then open a pull request. `npm run lint` checks the format, alphabetical order, duplicates and wording before you push.
+Read [CONTRIBUTING.md](CONTRIBUTING.md), then open a pull request. `npm run lint` checks the format, alphabetical order, duplicates and wording before you push, and a link checker runs on every pull request and every Monday so dead links get caught.
 
 ## License
 
