@@ -14,7 +14,7 @@ Every entry is one real sentence about what the thing does. No rankings, no affi
 - [Security tools](#security-tools)
 - [Learning resources](#learning-resources)
 
-Categories are added one pull request at a time.
+New entries are welcome. See [Contributing](#contributing).
 
 ## RPC providers and infrastructure
 

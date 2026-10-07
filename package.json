@@ -1,6 +1,6 @@
 {
   "name": "awesome-solana-builders",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "description": "A curated list of tools, libraries, APIs and learning resources for people building on Solana.",
   "scripts": {
