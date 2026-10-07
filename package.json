@@ -5,6 +5,7 @@
   "description": "A curated list of tools, libraries, APIs and learning resources for people building on Solana.",
   "scripts": {
     "lint": "node scripts/lint-readme.js",
+    "links": "node scripts/check-links.js",
     "test": "node --test"
   },
   "engines": {

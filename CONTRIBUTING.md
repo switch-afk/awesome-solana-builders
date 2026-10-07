@@ -17,7 +17,10 @@ Thanks for helping keep this list useful. It stays good by staying small and hon
 ```bash
    npm run lint
    npm test
+   npm run links
 ```
+
+   `npm run links` needs an internet connection; it checks that every link in the README still works.
 
 5. Open a pull request. One entry per pull request is easiest to review.
 
@@ -43,6 +46,13 @@ An entry must be:
 You can submit it. Say that you are connected to it in the pull request. It is judged on the same terms as everything else.
 
 The maintainer's own projects are listed too, in alphabetical order with the rest. They are marked "(by the maintainer)" in the description, and the linter enforces it.
+
+## How links are checked
+
+Every pull request that changes the README runs the link checker, and it runs again every Monday, so dead links get noticed even when nobody is editing.
+
+- A page that is gone (404 or 410), a server that keeps erroring, a host that cannot be reached, or a request that times out **fails** the check.
+- A link that redirects, or a site that rate-limits or blocks automated requests, is reported as a **warning** and does not fail the check, because the checker cannot tell whether the link is really broken. If a warning says a link has moved, please update it.
 
 ## Suggesting a new category
 
