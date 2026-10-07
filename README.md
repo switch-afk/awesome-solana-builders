@@ -11,6 +11,7 @@ Every entry is one real sentence about what the thing does. No rankings, no affi
 - [Bots and trading libraries](#bots-and-trading-libraries)
 - [Data APIs and indexers](#data-apis-and-indexers)
 - [Token and transaction tools](#token-and-transaction-tools)
+- [Security tools](#security-tools)
 
 Categories are added one pull request at a time.
 
@@ -76,6 +77,16 @@ Tools for creating, inspecting and managing tokens and for reading transactions.
 - [Streamflow](https://streamflow.finance) - Token vesting, locks and streaming payments, with an SDK for embedding them in your own app.
 - [Token program](https://github.com/solana-program/token) - Reference implementation of Solana's original Token program that defines mints and token accounts.
 - [Token-2022](https://github.com/solana-program/token-2022) - Token program that adds extensions such as transfer fees and confidential transfers while keeping the original Token program's instructions.
+
+## Security tools
+
+Tools for testing, verifying and protecting Solana programs.
+
+- [Radar](https://github.com/Auditware/radar) - Static analyzer for Rust-based Solana programs that runs customizable vulnerability detectors.
+- [Solana Verify](https://github.com/Ellipsis-Labs/solana-verifiable-build) - Command-line tool that builds a program reproducibly and checks that a deployed program matches its public source.
+- [solana-security-txt](https://github.com/neodyme-labs/solana-security-txt) - Macro that embeds contact and disclosure details into a program binary so researchers know where to report bugs.
+- [Squads](https://squads.xyz) - Multisig and smart account infrastructure for controlling program upgrade authorities and treasuries.
+- [Trident](https://github.com/Ackee-Blockchain/trident) - Rust fuzzing framework for Solana programs, built and maintained by Ackee Blockchain Security.
 
 ## How entries are chosen
 
