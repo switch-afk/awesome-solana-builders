@@ -1,0 +1,14 @@
+{
+  "name": "awesome-solana-builders",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A curated list of tools, libraries, APIs and learning resources for people building on Solana.",
+  "scripts": {
+    "lint": "node scripts/lint-readme.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "CC0-1.0"
+}
