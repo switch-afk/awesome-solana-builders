@@ -8,6 +8,7 @@ Every entry is one real sentence about what the thing does. No rankings, no affi
 
 - [RPC providers and infrastructure](#rpc-providers-and-infrastructure)
 - [SDKs and frameworks](#sdks-and-frameworks)
+- [Bots and trading libraries](#bots-and-trading-libraries)
 
 Categories are added one pull request at a time.
 
@@ -38,6 +39,17 @@ Libraries and frameworks for writing programs and the clients that talk to them.
 - [solana-go](https://github.com/gagliardetto/solana-go) - Go SDK for Solana RPC and WebSocket clients and transaction building.
 - [solana-py](https://github.com/michaelhly/solana-py) - Python SDK for Solana RPC clients and transaction building.
 - [Wallet Adapter](https://github.com/anza-xyz/wallet-adapter) - TypeScript packages for connecting wallets to Solana web apps, with React components.
+
+## Bots and trading libraries
+
+Reusable libraries and APIs for building trading and automation software. Ready-made sniper, copy-trade and arbitrage bots are not listed.
+
+- [Jito](https://docs.jito.wtf) - Block engine and bundle service for sending atomic transaction bundles with tips, with documentation and client libraries.
+- [Jupiter API](https://dev.jup.ag) - Swap and price APIs that route trades across Solana liquidity sources.
+- [Meteora DLMM SDK](https://github.com/MeteoraAg/dlmm-sdk) - TypeScript SDK for reading and interacting with Meteora's dynamic liquidity market maker pools.
+- [Orca Whirlpools](https://github.com/orca-so/whirlpools) - SDKs for working with Orca's concentrated liquidity pools from TypeScript and Rust.
+- [Raydium SDK V2](https://github.com/raydium-io/raydium-sdk-V2) - TypeScript SDK for swaps, liquidity and farm interactions with Raydium pools.
+- [Solana Agent Kit](https://github.com/sendaifun/solana-agent-kit) - Toolkit that connects AI agents to Solana protocols through a set of ready-made actions.
 
 ## How entries are chosen
 
