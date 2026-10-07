@@ -9,6 +9,7 @@ Every entry is one real sentence about what the thing does. No rankings, no affi
 - [RPC providers and infrastructure](#rpc-providers-and-infrastructure)
 - [SDKs and frameworks](#sdks-and-frameworks)
 - [Bots and trading libraries](#bots-and-trading-libraries)
+- [Data APIs and indexers](#data-apis-and-indexers)
 
 Categories are added one pull request at a time.
 
@@ -50,6 +51,18 @@ Reusable libraries and APIs for building trading and automation software. Ready-
 - [Orca Whirlpools](https://github.com/orca-so/whirlpools) - SDKs for working with Orca's concentrated liquidity pools from TypeScript and Rust.
 - [Raydium SDK V2](https://github.com/raydium-io/raydium-sdk-V2) - TypeScript SDK for swaps, liquidity and farm interactions with Raydium pools.
 - [Solana Agent Kit](https://github.com/sendaifun/solana-agent-kit) - Toolkit that connects AI agents to Solana protocols through a set of ready-made actions.
+
+## Data APIs and indexers
+
+Services and frameworks for reading, streaming and querying on-chain data beyond what plain RPC offers.
+
+- [Birdeye](https://docs.birdeye.so) - API for Solana token prices, OHLCV candles and token discovery data.
+- [Bitquery](https://bitquery.io) - Indexed and decoded Solana data such as trades and transfers, served over GraphQL, WebSocket, Kafka and gRPC.
+- [Carbon](https://github.com/sevenlabs-hq/carbon) - Rust framework for building Solana indexers that connects data sources to program decoders and custom processors.
+- [DexScreener API](https://docs.dexscreener.com) - Public API for token pair, price and liquidity data across Solana DEXs.
+- [Dune](https://dune.com) - Platform for querying indexed Solana data with SQL and publishing the results as dashboards.
+- [Yellowstone gRPC](https://github.com/rpcpool/yellowstone-grpc) - Geyser plugin that streams real-time account and transaction updates from validators over gRPC.
+- [Yellowstone Vixen](https://github.com/rpcpool/yellowstone-vixen) - Rust framework that turns raw Yellowstone events into typed data through parsers and handlers.
 
 ## How entries are chosen
 
