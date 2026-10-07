@@ -12,6 +12,7 @@ Every entry is one real sentence about what the thing does. No rankings, no affi
 - [Data APIs and indexers](#data-apis-and-indexers)
 - [Token and transaction tools](#token-and-transaction-tools)
 - [Security tools](#security-tools)
+- [Learning resources](#learning-resources)
 
 Categories are added one pull request at a time.
 
@@ -87,6 +88,17 @@ Tools for testing, verifying and protecting Solana programs.
 - [solana-security-txt](https://github.com/neodyme-labs/solana-security-txt) - Macro that embeds contact and disclosure details into a program binary so researchers know where to report bugs.
 - [Squads](https://squads.xyz) - Multisig and smart account infrastructure for controlling program upgrade authorities and treasuries.
 - [Trident](https://github.com/Ackee-Blockchain/trident) - Rust fuzzing framework for Solana programs, built and maintained by Ackee Blockchain Security.
+
+## Learning resources
+
+Official and community material for learning how to build on Solana.
+
+- [Solana Cookbook](https://solana.com/developers/cookbook) - Code snippets and recipes in JavaScript and Python for common tasks such as connecting to a cluster and creating keypairs and accounts.
+- [Solana Developer Courses](https://solana.com/developers/courses) - Structured courses that take you from a first program to a production application.
+- [Solana documentation](https://solana.com/docs) - Official documentation covering accounts, transactions, programs, the CLI and local development.
+- [Solana Playground](https://beta.solpg.io) - Browser-based editor for writing, building and deploying Solana programs without installing any tools.
+- [Solana Program Examples](https://github.com/solana-developers/program-examples) - Reference programs showing common patterns, written for several frameworks.
+- [Solana Stack Exchange](https://solana.stackexchange.com) - Question-and-answer site for Solana development problems.
 
 ## How entries are chosen
 
