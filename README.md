@@ -75,6 +75,7 @@ Tools for creating, inspecting and managing tokens and for reading transactions.
 - [mint-check](https://github.com/switch-afk/mint-check) - Command-line tool that checks a Solana token mint for red flags (by the maintainer).
 - [RugCheck](https://rugcheck.xyz) - Token scanner with an API that reports risks such as mint authority, freeze authority and holder concentration.
 - [sol-tx-explain](https://github.com/switch-afk/sol-tx-explain) - Command-line tool that turns a Solana transaction signature into a plain-English summary (by the maintainer).
+- [HostDeFi](https://hostdefi.com/scan) - Free token risk scanner reporting honeypot, mint/freeze authority, liquidity and holder-concentration signals; keyless API across Solana + 7 EVM chains.
 - [Streamflow](https://streamflow.finance) - Token vesting, locks and streaming payments, with an SDK for embedding them in your own app.
 - [Token program](https://github.com/solana-program/token) - Reference implementation of Solana's original Token program that defines mints and token accounts.
 - [Token-2022](https://github.com/solana-program/token-2022) - Token program that adds extensions such as transfer fees and confidential transfers while keeping the original Token program's instructions.
