@@ -75,6 +75,7 @@ Tools for creating, inspecting and managing tokens and for reading transactions.
 - [mint-check](https://github.com/switch-afk/mint-check) - Command-line tool that checks a Solana token mint for red flags (by the maintainer).
 - [RugCheck](https://rugcheck.xyz) - Token scanner with an API that reports risks such as mint authority, freeze authority and holder concentration.
 - [sol-tx-explain](https://github.com/switch-afk/sol-tx-explain) - Command-line tool that turns a Solana transaction signature into a plain-English summary (by the maintainer).
+- [sol-tx-watch](https://github.com/switch-afk/sol-tx-watch) - Command-line tool that streams a wallet's new Solana transactions to your terminal with a plain-English summary of each (by the maintainer).
 - [Streamflow](https://streamflow.finance) - Token vesting, locks and streaming payments, with an SDK for embedding them in your own app.
 - [Token program](https://github.com/solana-program/token) - Reference implementation of Solana's original Token program that defines mints and token accounts.
 - [Token-2022](https://github.com/solana-program/token-2022) - Token program that adds extensions such as transfer fees and confidential transfers while keeping the original Token program's instructions.
@@ -84,6 +85,7 @@ Tools for creating, inspecting and managing tokens and for reading transactions.
 Tools for testing, verifying and protecting Solana programs.
 
 - [Radar](https://github.com/Auditware/radar) - Static analyzer for Rust-based Solana programs that runs customizable vulnerability detectors.
+- [sol-program-info](https://github.com/switch-afk/sol-program-info) - Command-line tool that shows whether a Solana program can still be upgraded, who holds the upgrade authority and when it was last deployed (by the maintainer).
 - [Solana Verify](https://github.com/Ellipsis-Labs/solana-verifiable-build) - Command-line tool that builds a program reproducibly and checks that a deployed program matches its public source.
 - [solana-security-txt](https://github.com/neodyme-labs/solana-security-txt) - Macro that embeds contact and disclosure details into a program binary so researchers know where to report bugs.
 - [Squads](https://squads.xyz) - Multisig and smart account infrastructure for controlling program upgrade authorities and treasuries.
