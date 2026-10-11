@@ -22,9 +22,9 @@ Services that give your code a connection to the Solana network.
 
 - [Alchemy](https://www.alchemy.com/solana) - Multi-chain node provider that includes Solana RPC alongside its data APIs and webhooks.
 - [Helius](https://www.helius.dev) - Solana-only provider with RPC, enhanced token and NFT APIs, webhooks and a priority fee estimation endpoint.
-- [Ironforge](https://www.ironforge.cloud) - Management layer that sits in front of your existing RPC providers instead of being a provider itself.
+- [Ironforge](https://www.ironforge.sanctum.so) - Management layer that sits in front of your existing RPC providers instead of being a provider itself.
 - [OrbitFlare](https://orbitflare.com) - Solana provider offering RPC, WebSocket and Yellowstone-compatible gRPC endpoints.
-- [QuickNode](https://www.quicknode.com/chains/sol) - Multi-chain node provider that offers Solana among dozens of networks, useful if you also need EVM endpoints from one vendor.
+- [QuickNode](https://www.quicknode.com/chains/solana) - Multi-chain node provider that offers Solana among dozens of networks, useful if you also need EVM endpoints from one vendor.
 - [RPC Fast](https://rpcfast.com) - Solana RPC provider selling dedicated nodes for latency-sensitive workloads.
 - [Solana public RPC endpoints](https://solana.com/docs/references/clusters) - Free public endpoints for each cluster that are rate-limited, so they suit testing and not production.
 - [Syndica](https://syndica.io) - Solana-focused provider offering RPC and streaming with an enterprise orientation.
@@ -34,13 +34,13 @@ Services that give your code a connection to the Solana network.
 
 Libraries and frameworks for writing programs and the clients that talk to them.
 
-- [Anchor](https://www.anchor-lang.com) - Rust framework for writing, testing and deploying Solana programs, with IDL generation and a TypeScript client.
+- [Anchor](https://www.anchor-lang.com/docs) - Rust framework for writing, testing and deploying Solana programs, with IDL generation and a TypeScript client.
 - [Codama](https://github.com/codama-idl/codama) - Generates typed JavaScript and Rust clients from a Solana program's IDL.
 - [Framework Kit](https://github.com/solana-foundation/framework-kit) - Solana Foundation packages built on Solana Kit that provide a client and React hooks for wallets, balances and transactions.
 - [Pinocchio](https://github.com/anza-xyz/pinocchio) - Rust library with no external dependencies for writing Solana programs with zero-copy account access.
-- [Solana Kit](https://solanakit.com) - JavaScript and TypeScript SDK for Solana RPC, signing and transactions that replaces the class-based web3.js v1.
+- [Solana Kit](https://www.solanakit.com) - JavaScript and TypeScript SDK for Solana RPC, signing and transactions that replaces the class-based web3.js v1.
 - [Solana Program clients](https://github.com/solana-program) - GitHub organization with typed JavaScript and Rust clients for core programs such as System, Token and Token-2022.
-- [solana-go](https://github.com/gagliardetto/solana-go) - Go SDK for Solana RPC and WebSocket clients and transaction building.
+- [solana-go](https://github.com/solana-foundation/solana-go) - Go SDK for Solana RPC and WebSocket clients and transaction building.
 - [solana-py](https://github.com/michaelhly/solana-py) - Python SDK for Solana RPC clients and transaction building.
 - [Wallet Adapter](https://github.com/anza-xyz/wallet-adapter) - TypeScript packages for connecting wallets to Solana web apps, with React components.
 
@@ -49,7 +49,7 @@ Libraries and frameworks for writing programs and the clients that talk to them.
 Reusable libraries and APIs for building trading and automation software. Ready-made sniper, copy-trade and arbitrage bots are not listed.
 
 - [Jito](https://docs.jito.wtf) - Block engine and bundle service for sending atomic transaction bundles with tips, with documentation and client libraries.
-- [Jupiter API](https://dev.jup.ag) - Swap and price APIs that route trades across Solana liquidity sources.
+- [Jupiter API](https://developers.jup.ag) - Swap and price APIs that route trades across Solana liquidity sources.
 - [Meteora DLMM SDK](https://github.com/MeteoraAg/dlmm-sdk) - TypeScript SDK for reading and interacting with Meteora's dynamic liquidity market maker pools.
 - [Orca Whirlpools](https://github.com/orca-so/whirlpools) - SDKs for working with Orca's concentrated liquidity pools from TypeScript and Rust.
 - [Raydium SDK V2](https://github.com/raydium-io/raydium-sdk-V2) - TypeScript SDK for swaps, liquidity and farm interactions with Raydium pools.
@@ -59,19 +59,19 @@ Reusable libraries and APIs for building trading and automation software. Ready-
 
 Services and frameworks for reading, streaming and querying on-chain data beyond what plain RPC offers.
 
-- [Birdeye](https://docs.birdeye.so) - API for Solana token prices, OHLCV candles and token discovery data.
+- [Birdeye](https://data.birdeye.so/docs/getting-started) - API for Solana token prices, OHLCV candles and token discovery data.
 - [Bitquery](https://bitquery.io) - Indexed and decoded Solana data such as trades and transfers, served over GraphQL, WebSocket, Kafka and gRPC.
 - [Carbon](https://github.com/sevenlabs-hq/carbon) - Rust framework for building Solana indexers that connects data sources to program decoders and custom processors.
 - [DexScreener API](https://docs.dexscreener.com) - Public API for token pair, price and liquidity data across Solana DEXs.
 - [Dune](https://dune.com) - Platform for querying indexed Solana data with SQL and publishing the results as dashboards.
+- [Shipstern](https://github.com/solana-rpc/shipstern) - Rust framework that turns raw Yellowstone events into typed data through parsers and handlers, formerly called Yellowstone Vixen.
 - [Yellowstone gRPC](https://github.com/rpcpool/yellowstone-grpc) - Geyser plugin that streams real-time account and transaction updates from validators over gRPC.
-- [Yellowstone Vixen](https://github.com/rpcpool/yellowstone-vixen) - Rust framework that turns raw Yellowstone events into typed data through parsers and handlers.
 
 ## Token and transaction tools
 
 Tools for creating, inspecting and managing tokens and for reading transactions.
 
-- [Metaplex](https://developers.metaplex.com) - Standards and tooling for token metadata and NFTs on Solana, including compressed NFTs.
+- [Metaplex](https://www.metaplex.com/docs) - Standards and tooling for token metadata and NFTs on Solana, including compressed NFTs.
 - [mint-check](https://github.com/switch-afk/mint-check) - Command-line tool that checks a Solana token mint for red flags (by the maintainer).
 - [RugCheck](https://rugcheck.xyz) - Token scanner with an API that reports risks such as mint authority, freeze authority and holder concentration.
 - [sol-tx-explain](https://github.com/switch-afk/sol-tx-explain) - Command-line tool that turns a Solana transaction signature into a plain-English summary (by the maintainer).
@@ -86,7 +86,7 @@ Tools for testing, verifying and protecting Solana programs.
 
 - [Radar](https://github.com/Auditware/radar) - Static analyzer for Rust-based Solana programs that runs customizable vulnerability detectors.
 - [sol-program-info](https://github.com/switch-afk/sol-program-info) - Command-line tool that shows whether a Solana program can still be upgraded, who holds the upgrade authority and when it was last deployed (by the maintainer).
-- [Solana Verify](https://github.com/Ellipsis-Labs/solana-verifiable-build) - Command-line tool that builds a program reproducibly and checks that a deployed program matches its public source.
+- [Solana Verify](https://github.com/solana-foundation/solana-verifiable-build) - Command-line tool that builds a program reproducibly and checks that a deployed program matches its public source.
 - [solana-security-txt](https://github.com/neodyme-labs/solana-security-txt) - Macro that embeds contact and disclosure details into a program binary so researchers know where to report bugs.
 - [Squads](https://squads.xyz) - Multisig and smart account infrastructure for controlling program upgrade authorities and treasuries.
 - [Trident](https://github.com/Ackee-Blockchain/trident) - Rust fuzzing framework for Solana programs, built and maintained by Ackee Blockchain Security.
@@ -96,10 +96,10 @@ Tools for testing, verifying and protecting Solana programs.
 Official and community material for learning how to build on Solana.
 
 - [Solana Cookbook](https://solana.com/developers/cookbook) - Code snippets and recipes in JavaScript and Python for common tasks such as connecting to a cluster and creating keypairs and accounts.
-- [Solana Developer Courses](https://solana.com/developers/courses) - Structured courses that take you from a first program to a production application.
+- [Solana Developer Bootcamp](https://solana.com/developers/bootcamp) - Video-based bootcamp that takes you from Solana foundations and program patterns to fullstack apps and production, plus shorter courses.
 - [Solana documentation](https://solana.com/docs) - Official documentation covering accounts, transactions, programs, the CLI and local development.
 - [Solana Playground](https://beta.solpg.io) - Browser-based editor for writing, building and deploying Solana programs without installing any tools.
-- [Solana Program Examples](https://github.com/solana-developers/program-examples) - Reference programs showing common patterns, written for several frameworks.
+- [Solana Program Examples](https://github.com/solana-foundation/program-examples) - Reference programs showing common patterns, written for several frameworks.
 - [Solana Stack Exchange](https://solana.stackexchange.com) - Question-and-answer site for Solana development problems.
 
 ## How entries are chosen
