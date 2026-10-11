@@ -9,18 +9,18 @@ Thanks for helping keep this list useful. It stays good by staying small and hon
 3. Use exactly this format:
 
 ```
-   - [Name](https://example.com) - What it does, in one sentence.
+- [Name](https://example.com) - What it does, in one sentence.
 ```
 
 4. Run the checks locally:
 
 ```bash
-   npm run lint
-   npm test
-   npm run links
+npm run lint
+npm test
+npm run links
 ```
 
-   `npm run links` needs an internet connection; it checks that every link in the README still works.
+`npm run links` needs an internet connection. It checks that every link in the README still works.
 
 5. Open a pull request. One entry per pull request is easiest to review.
 
@@ -52,7 +52,17 @@ The maintainer's own projects are listed too, in alphabetical order with the res
 Every pull request that changes the README runs the link checker, and it runs again every Monday, so dead links get noticed even when nobody is editing.
 
 - A page that is gone (404 or 410), a server that keeps erroring, a host that cannot be reached, or a request that times out **fails** the check.
-- A link that redirects, or a site that rate-limits or blocks automated requests, is reported as a **warning** and does not fail the check, because the checker cannot tell whether the link is really broken. If a warning says a link has moved, please update it.
+- A link that redirects, or a site that rate-limits or blocks automated requests, is reported as a **warning** and does not fail the check, because the checker cannot tell whether the link is really broken.
+- A 403 warning usually means the site blocks bots. Open the link in a browser to confirm it works.
+
+## Fixing moved or renamed links
+
+When the link check says a link redirects:
+
+1. Open the old and the new address in a browser, and confirm the new one is the same project or service.
+2. Update the link to the new address.
+3. If the project was renamed, update the name and the description too, and move the entry so the category stays in alphabetical order.
+4. If the old page is gone and nothing replaces it, open an issue or remove the entry.
 
 ## Suggesting a new category
 
