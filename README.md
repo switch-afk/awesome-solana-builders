@@ -26,6 +26,8 @@ Services that give your code a connection to the Solana network.
 - [OrbitFlare](https://orbitflare.com) - Solana provider offering RPC, WebSocket and Yellowstone-compatible gRPC endpoints.
 - [QuickNode](https://www.quicknode.com/chains/solana) - Multi-chain node provider that offers Solana among dozens of networks, useful if you also need EVM endpoints from one vendor.
 - [RPC Fast](https://rpcfast.com) - Solana RPC provider selling dedicated nodes for latency-sensitive workloads.
+- [sol-epoch](https://github.com/switch-afk/sol-epoch) - Command-line tool that shows the current Solana epoch, its slot progress and an estimate of the time left, and can look up any epoch (by the maintainer).
+- [sol-priority-fee](https://github.com/switch-afk/sol-priority-fee) - Command-line tool that estimates low, medium and high priority fees from what recent transactions paid, optionally for a single account (by the maintainer).
 - [Solana public RPC endpoints](https://solana.com/docs/references/clusters) - Free public endpoints for each cluster that are rate-limited, so they suit testing and not production.
 - [Syndica](https://syndica.io) - Solana-focused provider offering RPC and streaming with an enterprise orientation.
 - [Triton One](https://triton.one) - Solana infrastructure company that maintains the Yellowstone gRPC streaming interface and sells dedicated nodes.
@@ -38,6 +40,8 @@ Libraries and frameworks for writing programs and the clients that talk to them.
 - [Codama](https://github.com/codama-idl/codama) - Generates typed JavaScript and Rust clients from a Solana program's IDL.
 - [Framework Kit](https://github.com/solana-foundation/framework-kit) - Solana Foundation packages built on Solana Kit that provide a client and React hooks for wallets, balances and transactions.
 - [Pinocchio](https://github.com/anza-xyz/pinocchio) - Rust library with no external dependencies for writing Solana programs with zero-copy account access.
+- [sol-idl-peek](https://github.com/switch-afk/sol-idl-peek) - Command-line tool that fetches a program's on-chain IDL and prints a readable summary of its instructions, accounts, errors and types (by the maintainer).
+- [sol-pda](https://github.com/switch-afk/sol-pda) - Command-line tool that derives program derived addresses from typed seeds, verifies them and can check whether the account exists on chain (by the maintainer).
 - [Solana Kit](https://www.solanakit.com) - JavaScript and TypeScript SDK for Solana RPC, signing and transactions that replaces the class-based web3.js v1.
 - [Solana Program clients](https://github.com/solana-program) - GitHub organization with typed JavaScript and Rust clients for core programs such as System, Token and Token-2022.
 - [solana-go](https://github.com/solana-foundation/solana-go) - Go SDK for Solana RPC and WebSocket clients and transaction building.
@@ -74,8 +78,12 @@ Tools for creating, inspecting and managing tokens and for reading transactions.
 - [Metaplex](https://www.metaplex.com/docs) - Standards and tooling for token metadata and NFTs on Solana, including compressed NFTs.
 - [mint-check](https://github.com/switch-afk/mint-check) - Command-line tool that checks a Solana token mint for red flags (by the maintainer).
 - [RugCheck](https://rugcheck.xyz) - Token scanner with an API that reports risks such as mint authority, freeze authority and holder concentration.
+- [sol-holders](https://github.com/switch-afk/sol-holders) - Command-line tool that shows a token mint's supply and authorities and lists its largest holders with their share of the supply (by the maintainer).
+- [sol-rent-reclaim](https://github.com/switch-afk/sol-rent-reclaim) - Command-line tool that scans a wallet for empty token accounts and reports how much rent in SOL could be reclaimed (by the maintainer).
+- [sol-stake-info](https://github.com/switch-afk/sol-stake-info) - Command-line tool that shows a stake account's activation status and lockup, or lists all the stake accounts of a wallet (by the maintainer).
 - [sol-tx-explain](https://github.com/switch-afk/sol-tx-explain) - Command-line tool that turns a Solana transaction signature into a plain-English summary (by the maintainer).
 - [sol-tx-watch](https://github.com/switch-afk/sol-tx-watch) - Command-line tool that streams a wallet's new Solana transactions to your terminal with a plain-English summary of each (by the maintainer).
+- [sol-wallet-profile](https://github.com/switch-afk/sol-wallet-profile) - Command-line tool that profiles a Solana address with its balance, account type, recent activity and token holdings (by the maintainer).
 - [Streamflow](https://streamflow.finance) - Token vesting, locks and streaming payments, with an SDK for embedding them in your own app.
 - [Token program](https://github.com/solana-program/token) - Reference implementation of Solana's original Token program that defines mints and token accounts.
 - [Token-2022](https://github.com/solana-program/token-2022) - Token program that adds extensions such as transfer fees and confidential transfers while keeping the original Token program's instructions.
