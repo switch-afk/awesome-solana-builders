@@ -79,6 +79,7 @@ Tools for creating, inspecting and managing tokens and for reading transactions.
 - [mint-check](https://github.com/switch-afk/mint-check) - Command-line tool that checks a Solana token mint for red flags (by the maintainer).
 - [RugCheck](https://rugcheck.xyz) - Token scanner with an API that reports risks such as mint authority, freeze authority and holder concentration.
 - [sol-holders](https://github.com/switch-afk/sol-holders) - Command-line tool that shows a token mint's supply and authorities and lists its largest holders with their share of the supply (by the maintainer).
+- [sol-kit](https://github.com/switch-afk/sol-kit) - Command-line tool that lists and runs a set of Solana tools by short alias, covering transactions, tokens, wallets, programs and the network (by the maintainer).
 - [sol-rent-reclaim](https://github.com/switch-afk/sol-rent-reclaim) - Command-line tool that scans a wallet for empty token accounts and reports how much rent in SOL could be reclaimed (by the maintainer).
 - [sol-stake-info](https://github.com/switch-afk/sol-stake-info) - Command-line tool that shows a stake account's activation status and lockup, or lists all the stake accounts of a wallet (by the maintainer).
 - [sol-tx-explain](https://github.com/switch-afk/sol-tx-explain) - Command-line tool that turns a Solana transaction signature into a plain-English summary (by the maintainer).
